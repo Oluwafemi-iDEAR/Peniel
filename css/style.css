@@ -1,0 +1,128 @@
+body{
+	background: #555454;
+	color: #fff;
+}
+
+
+header img{
+		float:left;
+		padding:0 0 0px 0;
+}
+
+header h1{
+		float:left;
+		color:#ffffff;
+		font-size:45px;
+		padding:20px 0 0 10px;
+}
+
+header h1 span.blue-text{
+	color:#67A0F5
+}
+	
+header h2 span.white-text{
+	color:#ffffff
+}
+
+.item img{
+	width: 100%;
+	height: 400px !important;
+}
+#menu{
+	padding-left: 0;
+	margin-left: -20px;
+}
+
+#menu ul li{
+	float: left;
+	display:block;
+	height:54px;
+	padding-right: 10px;
+	padding-left: 10px;
+	
+	margin-top: 10px;
+}
+
+a{
+	color: Blue;
+	text-decoration: none;
+}
+
+#menu ul li a:hover{
+	color: blue;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 16px;
+	border-radius:10px;
+	border:3px solid #d8d0ca;
+}
+
+.menu-active a{
+	color: black;
+	background: white;
+	border: 3px white solid;
+	padding: 10px;
+}
+
+.adjust-10{
+	margin-top: 10px !important; 
+}
+
+.section 
+    background-color: #fff;
+	border-radius:10px;
+	border:6px solid #99ffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+
+#search_form{
+	float: right;
+}
+
+
+#search_field_id{
+	height: 40px;
+	width: 300px;
+	margin-top: 5px;
+	margin-right: 20px;
+}
